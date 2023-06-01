@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdpart
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libberkeleydb", "thirdparty\berkeleydb-5.3.28_linux\libberkeleydb_linux.vcxproj", "{791642ED-9E59-4F42-927B-3562F869D9C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_lib", "0_lib", "{C8721B41-51AE-49D5-AF9E-84E09F646E94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "berkeleydb", "thirdparty\berkeleydb-5.3.28_linux\berkeleydb_linux.vcxproj", "{6F09D823-1ABB-4AEF-8338-A654DFB21FC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_dll", "1_dll", "{23D80AD8-0667-4ACB-A082-5CDD04545CD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -17,12 +23,19 @@ Global
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Debug|x64.Build.0 = Debug|x64
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.ActiveCfg = Release|x64
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.Build.0 = Release|x64
+		{6F09D823-1ABB-4AEF-8338-A654DFB21FC3}.Debug|x64.ActiveCfg = Debug|x64
+		{6F09D823-1ABB-4AEF-8338-A654DFB21FC3}.Debug|x64.Build.0 = Debug|x64
+		{6F09D823-1ABB-4AEF-8338-A654DFB21FC3}.Release|x64.ActiveCfg = Release|x64
+		{6F09D823-1ABB-4AEF-8338-A654DFB21FC3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{791642ED-9E59-4F42-927B-3562F869D9C1} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {C8721B41-51AE-49D5-AF9E-84E09F646E94}
+		{C8721B41-51AE-49D5-AF9E-84E09F646E94} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{6F09D823-1ABB-4AEF-8338-A654DFB21FC3} = {23D80AD8-0667-4ACB-A082-5CDD04545CD4}
+		{23D80AD8-0667-4ACB-A082-5CDD04545CD4} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
