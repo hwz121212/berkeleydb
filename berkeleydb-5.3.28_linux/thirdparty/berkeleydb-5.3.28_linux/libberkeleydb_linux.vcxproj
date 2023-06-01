@@ -92,6 +92,20 @@
     <ClInclude Include="include\db_int.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="include\dbinc\db.in" />
+    <None Include="include\dbinc\db_185.in" />
+    <None Include="include\dbinc\db_cxx.in" />
+    <None Include="include\dbinc\db_int.in" />
+    <None Include="include\dbinc_auto\api_flags.in" />
+    <None Include="include\dbinc_auto\ext_185_def.in" />
+    <None Include="include\dbinc_auto\ext_185_prot.in" />
+    <None Include="include\dbinc_auto\ext_def.in" />
+    <None Include="include\dbinc_auto\ext_prot.in" />
+    <None Include="include\dbinc_auto\int_def.in" />
+    <None Include="src\lock\lock_alloc.incl" />
+    <None Include="src\mutex\uts4_cc.s" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="src\btree\btree_auto.c" />
     <ClCompile Include="src\btree\btree_autop.c" />
     <ClCompile Include="src\btree\bt_compact.c" />
@@ -114,7 +128,6 @@
     <ClCompile Include="src\btree\bt_upgrade.c" />
     <ClCompile Include="src\btree\bt_verify.c" />
     <ClCompile Include="src\common\clock.c" />
-    <ClCompile Include="src\common\crypto_stub.c" />
     <ClCompile Include="src\common\dbt.c" />
     <ClCompile Include="src\common\db_byteorder.c" />
     <ClCompile Include="src\common\db_compint.c" />
@@ -136,6 +149,12 @@
     <ClCompile Include="src\crypto\mersenne\mt19937db.c" />
     <ClCompile Include="src\crypto\rijndael\rijndael-alg-fst.c" />
     <ClCompile Include="src\crypto\rijndael\rijndael-api-fst.c" />
+    <ClCompile Include="src\dbreg\dbreg.c" />
+    <ClCompile Include="src\dbreg\dbreg_auto.c" />
+    <ClCompile Include="src\dbreg\dbreg_autop.c" />
+    <ClCompile Include="src\dbreg\dbreg_rec.c" />
+    <ClCompile Include="src\dbreg\dbreg_stat.c" />
+    <ClCompile Include="src\dbreg\dbreg_util.c" />
     <ClCompile Include="src\db\crdel_auto.c" />
     <ClCompile Include="src\db\crdel_autop.c" />
     <ClCompile Include="src\db\crdel_rec.c" />
@@ -173,7 +192,6 @@
     <ClCompile Include="src\db\db_upg_opd.c" />
     <ClCompile Include="src\db\db_vrfy.c" />
     <ClCompile Include="src\db\db_vrfyutil.c" />
-    <ClCompile Include="src\db\db_vrfy_stub.c" />
     <ClCompile Include="src\db\partition.c" />
     <ClCompile Include="src\env\env_alloc.c" />
     <ClCompile Include="src\env\env_backup.c" />
@@ -208,7 +226,6 @@
     <ClCompile Include="src\hash\hash_rec.c" />
     <ClCompile Include="src\hash\hash_reclaim.c" />
     <ClCompile Include="src\hash\hash_stat.c" />
-    <ClCompile Include="src\hash\hash_stub.c" />
     <ClCompile Include="src\hash\hash_upgrade.c" />
     <ClCompile Include="src\hash\hash_verify.c" />
     <ClCompile Include="src\heap\heap.c" />
@@ -221,7 +238,6 @@
     <ClCompile Include="src\heap\heap_rec.c" />
     <ClCompile Include="src\heap\heap_reclaim.c" />
     <ClCompile Include="src\heap\heap_stat.c" />
-    <ClCompile Include="src\heap\heap_stub.c" />
     <ClCompile Include="src\heap\heap_verify.c" />
     <ClCompile Include="src\hmac\hmac.c" />
     <ClCompile Include="src\hmac\sha1.c" />
@@ -233,7 +249,6 @@
     <ClCompile Include="src\lock\lock_method.c" />
     <ClCompile Include="src\lock\lock_region.c" />
     <ClCompile Include="src\lock\lock_stat.c" />
-    <ClCompile Include="src\lock\lock_stub.c" />
     <ClCompile Include="src\lock\lock_timer.c" />
     <ClCompile Include="src\lock\lock_util.c" />
     <ClCompile Include="src\log\log.c" />
@@ -248,7 +263,6 @@
     <ClCompile Include="src\log\log_verify.c" />
     <ClCompile Include="src\log\log_verify_auto.c" />
     <ClCompile Include="src\log\log_verify_int.c" />
-    <ClCompile Include="src\log\log_verify_stub.c" />
     <ClCompile Include="src\log\log_verify_util.c" />
     <ClCompile Include="src\mp\mp_alloc.c" />
     <ClCompile Include="src\mp\mp_backup.c" />
@@ -268,12 +282,10 @@
     <ClCompile Include="src\mp\mp_trickle.c" />
     <ClCompile Include="src\mutex\mut_alloc.c" />
     <ClCompile Include="src\mutex\mut_failchk.c" />
-    <ClCompile Include="src\mutex\mut_fcntl.c" />
     <ClCompile Include="src\mutex\mut_method.c" />
     <ClCompile Include="src\mutex\mut_pthread.c" />
     <ClCompile Include="src\mutex\mut_region.c" />
     <ClCompile Include="src\mutex\mut_stat.c" />
-    <ClCompile Include="src\mutex\mut_stub.c" />
     <ClCompile Include="src\mutex\mut_tas.c" />
     <ClCompile Include="src\os\os_abort.c" />
     <ClCompile Include="src\os\os_abs.c" />
@@ -316,7 +328,6 @@
     <ClCompile Include="src\qam\qam_open.c" />
     <ClCompile Include="src\qam\qam_rec.c" />
     <ClCompile Include="src\qam\qam_stat.c" />
-    <ClCompile Include="src\qam\qam_stub.c" />
     <ClCompile Include="src\qam\qam_upgrade.c" />
     <ClCompile Include="src\qam\qam_verify.c" />
     <ClCompile Include="src\repmgr\repmgr_auto.c" />
@@ -331,7 +342,6 @@
     <ClCompile Include="src\repmgr\repmgr_rec.c" />
     <ClCompile Include="src\repmgr\repmgr_sel.c" />
     <ClCompile Include="src\repmgr\repmgr_stat.c" />
-    <ClCompile Include="src\repmgr\repmgr_stub.c" />
     <ClCompile Include="src\repmgr\repmgr_util.c" />
     <ClCompile Include="src\rep\rep_automsg.c" />
     <ClCompile Include="src\rep\rep_backup.c" />
@@ -342,7 +352,6 @@
     <ClCompile Include="src\rep\rep_record.c" />
     <ClCompile Include="src\rep\rep_region.c" />
     <ClCompile Include="src\rep\rep_stat.c" />
-    <ClCompile Include="src\rep\rep_stub.c" />
     <ClCompile Include="src\rep\rep_util.c" />
     <ClCompile Include="src\rep\rep_verify.c" />
     <ClCompile Include="src\sequence\sequence.c" />
@@ -360,20 +369,6 @@
     <ClCompile Include="src\txn\txn_util.c" />
     <ClCompile Include="src\xa\xa.c" />
     <ClCompile Include="src\xa\xa_map.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="include\dbinc\db.in" />
-    <None Include="include\dbinc\db_185.in" />
-    <None Include="include\dbinc\db_cxx.in" />
-    <None Include="include\dbinc\db_int.in" />
-    <None Include="include\dbinc_auto\api_flags.in" />
-    <None Include="include\dbinc_auto\ext_185_def.in" />
-    <None Include="include\dbinc_auto\ext_185_prot.in" />
-    <None Include="include\dbinc_auto\ext_def.in" />
-    <None Include="include\dbinc_auto\ext_prot.in" />
-    <None Include="include\dbinc_auto\int_def.in" />
-    <None Include="src\lock\lock_alloc.incl" />
-    <None Include="src\mutex\uts4_cc.s" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{791642ed-9e59-4f42-927b-3562f869d9c1}</ProjectGuid>

@@ -2,88 +2,91 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{4fcebed3-cd43-4fc9-bfce-44a72351b2f8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{b475e4e7-14e6-41c1-b215-c7b0a516d345}</UniqueIdentifier>
+      <UniqueIdentifier>{b7f92312-15e8-40be-b940-a86dea694e30}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\crypto">
-      <UniqueIdentifier>{d5f2fdc7-3258-48dd-9c47-454cdc2fa725}</UniqueIdentifier>
+      <UniqueIdentifier>{c4d01afc-b3eb-4de6-b3a3-c49fe7561e55}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\crypto\rijndael">
-      <UniqueIdentifier>{dd8d3864-1454-4251-a9c3-d9a1dbcdce28}</UniqueIdentifier>
+      <UniqueIdentifier>{2de2731b-f702-4267-8424-12f25242e92b}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\dbinc">
-      <UniqueIdentifier>{4b9f9dde-1cb8-4271-858b-4540a09cb0fb}</UniqueIdentifier>
+      <UniqueIdentifier>{02e8c55a-ee39-45a4-ae58-319183eca1cf}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\dbinc_auto">
-      <UniqueIdentifier>{03581523-6efb-4476-9ad8-ed0a47645e9c}</UniqueIdentifier>
+      <UniqueIdentifier>{9b777639-1977-465e-8d8b-61a5e1202e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{a067f73a-b420-45a4-9515-844eccc3f070}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\os">
-      <UniqueIdentifier>{cacbb527-4d2b-4ffc-8dab-fa151888f9ee}</UniqueIdentifier>
+      <UniqueIdentifier>{d560a23f-d43c-4d85-8a8a-c7f02272a594}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\crypto">
-      <UniqueIdentifier>{c2f940ce-eaf8-4ea2-bae3-9d2f162852a2}</UniqueIdentifier>
+      <UniqueIdentifier>{60cb0e2f-8543-4e66-b37a-f02e7b2de45a}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\crypto\mersenne">
-      <UniqueIdentifier>{73608923-4621-4434-a79c-11917f48c356}</UniqueIdentifier>
+      <UniqueIdentifier>{277603db-c634-4c51-a200-96c6150640a9}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\crypto\rijndael">
-      <UniqueIdentifier>{fea20796-fa1c-422f-9788-7f990d6592d6}</UniqueIdentifier>
+      <UniqueIdentifier>{5526879c-ff6b-44ae-bbca-1f1e3e0d8250}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\db">
-      <UniqueIdentifier>{66fe5744-e845-402a-becd-8acde16163e9}</UniqueIdentifier>
+      <UniqueIdentifier>{ced6ab51-2bf1-4e5b-b78b-cd235f66bd50}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\btree">
-      <UniqueIdentifier>{8ff0c1f0-3e90-4a5a-b63c-48e64648d285}</UniqueIdentifier>
+      <UniqueIdentifier>{54919ea2-c7da-4036-95d8-5daee2f1c413}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\common">
-      <UniqueIdentifier>{bd2b7172-4fff-403b-83ec-e00078465ed9}</UniqueIdentifier>
+      <UniqueIdentifier>{5c1eadab-9cba-4849-9116-431553cf057a}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\env">
-      <UniqueIdentifier>{dd440b00-a260-4a3e-a080-2f2fc0c8db31}</UniqueIdentifier>
+      <UniqueIdentifier>{83c86853-895a-4ff7-a4eb-f1e966dcd74d}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\fileops">
-      <UniqueIdentifier>{51869080-d0c6-43a9-8e3c-ad4c59e384d9}</UniqueIdentifier>
+      <UniqueIdentifier>{52dfd99e-05b0-44ba-93d3-279250838c0e}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\hash">
-      <UniqueIdentifier>{50b836cd-6f6c-4a70-b89b-326988be7e93}</UniqueIdentifier>
+      <UniqueIdentifier>{a9c239f8-2575-4620-8223-bdcb26fe2ff0}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\heap">
-      <UniqueIdentifier>{e96b59e2-05f0-4ddd-a37a-042fb63fd9f3}</UniqueIdentifier>
+      <UniqueIdentifier>{d8492eab-4f16-4783-99f2-44f8514cdfec}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\hmac">
-      <UniqueIdentifier>{c1c6b73f-6da8-4b27-8636-58f9a3cd412e}</UniqueIdentifier>
+      <UniqueIdentifier>{5a212a73-0d19-4577-a450-c192288d1adb}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\lock">
-      <UniqueIdentifier>{97729a1d-ff44-4890-859e-2f27508078b5}</UniqueIdentifier>
+      <UniqueIdentifier>{5c37dfa2-54bd-4a86-8b66-8601aabc2ccb}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\log">
-      <UniqueIdentifier>{e6cbe109-251e-4b84-afac-11174e7cd076}</UniqueIdentifier>
+      <UniqueIdentifier>{91ede970-4ee6-44f4-8a45-7a9e3d39e91a}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\mp">
-      <UniqueIdentifier>{34b08dda-fd20-4e44-8dd9-871c894ce2ea}</UniqueIdentifier>
+      <UniqueIdentifier>{a077c55c-6026-42cc-9f06-efaa4dc25476}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\mutex">
-      <UniqueIdentifier>{2899d945-87e3-4545-b86d-6836abb0baed}</UniqueIdentifier>
+      <UniqueIdentifier>{a67db8a8-526c-4b7f-8665-60d891a8072f}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\qam">
-      <UniqueIdentifier>{e2ae7c74-4947-434d-9724-7becfee34d37}</UniqueIdentifier>
+      <UniqueIdentifier>{fcb0e662-d3e9-49a5-926e-03c11c126091}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\rep">
-      <UniqueIdentifier>{009aef5a-0f4a-40ca-83bd-ffa041357f07}</UniqueIdentifier>
+      <UniqueIdentifier>{6e1b3ffd-bda7-4a78-9165-739548b949ae}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\repmgr">
-      <UniqueIdentifier>{ccc5ce34-fba4-40f5-a5c4-19a627b17ebd}</UniqueIdentifier>
+      <UniqueIdentifier>{7a84db4c-ad5f-43ff-957d-2ba264e13aef}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\txn">
-      <UniqueIdentifier>{4037ece2-9dac-4fb3-a8cc-e829196225b3}</UniqueIdentifier>
+      <UniqueIdentifier>{fe6583e2-728e-4060-91e4-4d3665277765}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\xa">
-      <UniqueIdentifier>{a868efcc-2273-425a-8bf7-bf658ef573a4}</UniqueIdentifier>
+      <UniqueIdentifier>{94c63285-0014-4854-8564-464765caa749}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\sequence">
-      <UniqueIdentifier>{13c55a06-7624-4b7f-b6db-9f9da88be137}</UniqueIdentifier>
+      <UniqueIdentifier>{ace92869-a145-4fc6-a230-0dc5cb428cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dbreg">
+      <UniqueIdentifier>{66ed8f6e-4c49-46e9-84ed-ea26dabe160b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -237,16 +240,16 @@
     <ClInclude Include="include\dbinc_auto\crypto_ext.h">
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
-    <ClInclude Include="include\dbinc_auto\db_auto.h">
-      <Filter>include\dbinc_auto</Filter>
-    </ClInclude>
-    <ClInclude Include="include\dbinc_auto\db_ext.h">
-      <Filter>include\dbinc_auto</Filter>
-    </ClInclude>
     <ClInclude Include="include\dbinc_auto\dbreg_auto.h">
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
     <ClInclude Include="include\dbinc_auto\dbreg_ext.h">
+      <Filter>include\dbinc_auto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dbinc_auto\db_auto.h">
+      <Filter>include\dbinc_auto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dbinc_auto\db_ext.h">
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
     <ClInclude Include="include\dbinc_auto\env_ext.h">
@@ -294,12 +297,6 @@
     <ClInclude Include="include\dbinc_auto\qam_ext.h">
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
-    <ClInclude Include="include\dbinc_auto\rep_automsg.h">
-      <Filter>include\dbinc_auto</Filter>
-    </ClInclude>
-    <ClInclude Include="include\dbinc_auto\rep_ext.h">
-      <Filter>include\dbinc_auto</Filter>
-    </ClInclude>
     <ClInclude Include="include\dbinc_auto\repmgr_auto.h">
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
@@ -307,6 +304,12 @@
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
     <ClInclude Include="include\dbinc_auto\repmgr_ext.h">
+      <Filter>include\dbinc_auto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dbinc_auto\rep_automsg.h">
+      <Filter>include\dbinc_auto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dbinc_auto\rep_ext.h">
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
     <ClInclude Include="include\dbinc_auto\sequence_ext.h">
@@ -326,7 +329,54 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="include\dbinc\db.in">
+      <Filter>include\dbinc</Filter>
+    </None>
+    <None Include="include\dbinc\db_185.in">
+      <Filter>include\dbinc</Filter>
+    </None>
+    <None Include="include\dbinc\db_cxx.in">
+      <Filter>include\dbinc</Filter>
+    </None>
+    <None Include="include\dbinc\db_int.in">
+      <Filter>include\dbinc</Filter>
+    </None>
+    <None Include="include\dbinc_auto\api_flags.in">
+      <Filter>include\dbinc_auto</Filter>
+    </None>
+    <None Include="include\dbinc_auto\ext_185_def.in">
+      <Filter>include\dbinc_auto</Filter>
+    </None>
+    <None Include="include\dbinc_auto\ext_185_prot.in">
+      <Filter>include\dbinc_auto</Filter>
+    </None>
+    <None Include="include\dbinc_auto\ext_def.in">
+      <Filter>include\dbinc_auto</Filter>
+    </None>
+    <None Include="include\dbinc_auto\ext_prot.in">
+      <Filter>include\dbinc_auto</Filter>
+    </None>
+    <None Include="include\dbinc_auto\int_def.in">
+      <Filter>include\dbinc_auto</Filter>
+    </None>
+    <None Include="src\lock\lock_alloc.incl">
+      <Filter>src\lock</Filter>
+    </None>
+    <None Include="src\mutex\uts4_cc.s">
+      <Filter>src\mutex</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\os\os_abort.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
     <ClCompile Include="src\os\os_abs.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\os_addrinfo.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\os_alloc.c">
       <Filter>src\os</Filter>
     </ClCompile>
     <ClCompile Include="src\os\os_clock.c">
@@ -336,6 +386,9 @@
       <Filter>src\os</Filter>
     </ClCompile>
     <ClCompile Include="src\os\os_cpu.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\os_ctime.c">
       <Filter>src\os</Filter>
     </ClCompile>
     <ClCompile Include="src\os\os_dir.c">
@@ -368,43 +421,13 @@
     <ClCompile Include="src\os\os_open.c">
       <Filter>src\os</Filter>
     </ClCompile>
-    <ClCompile Include="src\os\os_rename.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_rw.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_seek.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_stat.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_truncate.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_unlink.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_yield.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_abort.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_addrinfo.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_alloc.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
-    <ClCompile Include="src\os\os_ctime.c">
-      <Filter>src\os</Filter>
-    </ClCompile>
     <ClCompile Include="src\os\os_path.c">
       <Filter>src\os</Filter>
     </ClCompile>
     <ClCompile Include="src\os\os_pid.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\os_rename.c">
       <Filter>src\os</Filter>
     </ClCompile>
     <ClCompile Include="src\os\os_root.c">
@@ -413,19 +436,37 @@
     <ClCompile Include="src\os\os_rpath.c">
       <Filter>src\os</Filter>
     </ClCompile>
+    <ClCompile Include="src\os\os_rw.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\os_seek.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
     <ClCompile Include="src\os\os_stack.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\os_stat.c">
       <Filter>src\os</Filter>
     </ClCompile>
     <ClCompile Include="src\os\os_tmpdir.c">
       <Filter>src\os</Filter>
     </ClCompile>
+    <ClCompile Include="src\os\os_truncate.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
     <ClCompile Include="src\os\os_uid.c">
       <Filter>src\os</Filter>
     </ClCompile>
-    <ClCompile Include="src\crypto\crypto.c">
-      <Filter>src\crypto</Filter>
+    <ClCompile Include="src\os\os_unlink.c">
+      <Filter>src\os</Filter>
+    </ClCompile>
+    <ClCompile Include="src\os\os_yield.c">
+      <Filter>src\os</Filter>
     </ClCompile>
     <ClCompile Include="src\crypto\aes_method.c">
+      <Filter>src\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\crypto.c">
       <Filter>src\crypto</Filter>
     </ClCompile>
     <ClCompile Include="src\crypto\mersenne\mt19937db.c">
@@ -436,9 +477,6 @@
     </ClCompile>
     <ClCompile Include="src\crypto\rijndael\rijndael-api-fst.c">
       <Filter>src\crypto\rijndael</Filter>
-    </ClCompile>
-    <ClCompile Include="src\db\db_vrfy_stub.c">
-      <Filter>src\db</Filter>
     </ClCompile>
     <ClCompile Include="src\db\crdel_auto.c">
       <Filter>src\db</Filter>
@@ -554,6 +592,12 @@
     <ClCompile Include="src\db\partition.c">
       <Filter>src\db</Filter>
     </ClCompile>
+    <ClCompile Include="src\btree\btree_auto.c">
+      <Filter>src\btree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\btree\btree_autop.c">
+      <Filter>src\btree</Filter>
+    </ClCompile>
     <ClCompile Include="src\btree\bt_compact.c">
       <Filter>src\btree</Filter>
     </ClCompile>
@@ -611,16 +655,10 @@
     <ClCompile Include="src\btree\bt_verify.c">
       <Filter>src\btree</Filter>
     </ClCompile>
-    <ClCompile Include="src\btree\btree_auto.c">
-      <Filter>src\btree</Filter>
-    </ClCompile>
-    <ClCompile Include="src\btree\btree_autop.c">
-      <Filter>src\btree</Filter>
-    </ClCompile>
     <ClCompile Include="src\common\clock.c">
       <Filter>src\common</Filter>
     </ClCompile>
-    <ClCompile Include="src\common\crypto_stub.c">
+    <ClCompile Include="src\common\dbt.c">
       <Filter>src\common</Filter>
     </ClCompile>
     <ClCompile Include="src\common\db_byteorder.c">
@@ -642,9 +680,6 @@
       <Filter>src\common</Filter>
     </ClCompile>
     <ClCompile Include="src\common\db_shash.c">
-      <Filter>src\common</Filter>
-    </ClCompile>
-    <ClCompile Include="src\common\dbt.c">
       <Filter>src\common</Filter>
     </ClCompile>
     <ClCompile Include="src\common\mkpath.c">
@@ -770,9 +805,6 @@
     <ClCompile Include="src\hash\hash_stat.c">
       <Filter>src\hash</Filter>
     </ClCompile>
-    <ClCompile Include="src\hash\hash_stub.c">
-      <Filter>src\hash</Filter>
-    </ClCompile>
     <ClCompile Include="src\hash\hash_upgrade.c">
       <Filter>src\hash</Filter>
     </ClCompile>
@@ -809,9 +841,6 @@
     <ClCompile Include="src\heap\heap_stat.c">
       <Filter>src\heap</Filter>
     </ClCompile>
-    <ClCompile Include="src\heap\heap_stub.c">
-      <Filter>src\heap</Filter>
-    </ClCompile>
     <ClCompile Include="src\heap\heap_verify.c">
       <Filter>src\heap</Filter>
     </ClCompile>
@@ -843,9 +872,6 @@
       <Filter>src\lock</Filter>
     </ClCompile>
     <ClCompile Include="src\lock\lock_stat.c">
-      <Filter>src\lock</Filter>
-    </ClCompile>
-    <ClCompile Include="src\lock\lock_stub.c">
       <Filter>src\lock</Filter>
     </ClCompile>
     <ClCompile Include="src\lock\lock_timer.c">
@@ -888,9 +914,6 @@
       <Filter>src\log</Filter>
     </ClCompile>
     <ClCompile Include="src\log\log_verify_int.c">
-      <Filter>src\log</Filter>
-    </ClCompile>
-    <ClCompile Include="src\log\log_verify_stub.c">
       <Filter>src\log</Filter>
     </ClCompile>
     <ClCompile Include="src\log\log_verify_util.c">
@@ -950,9 +973,6 @@
     <ClCompile Include="src\mutex\mut_failchk.c">
       <Filter>src\mutex</Filter>
     </ClCompile>
-    <ClCompile Include="src\mutex\mut_fcntl.c">
-      <Filter>src\mutex</Filter>
-    </ClCompile>
     <ClCompile Include="src\mutex\mut_method.c">
       <Filter>src\mutex</Filter>
     </ClCompile>
@@ -963,9 +983,6 @@
       <Filter>src\mutex</Filter>
     </ClCompile>
     <ClCompile Include="src\mutex\mut_stat.c">
-      <Filter>src\mutex</Filter>
-    </ClCompile>
-    <ClCompile Include="src\mutex\mut_stub.c">
       <Filter>src\mutex</Filter>
     </ClCompile>
     <ClCompile Include="src\mutex\mut_tas.c">
@@ -996,9 +1013,6 @@
       <Filter>src\qam</Filter>
     </ClCompile>
     <ClCompile Include="src\qam\qam_stat.c">
-      <Filter>src\qam</Filter>
-    </ClCompile>
-    <ClCompile Include="src\qam\qam_stub.c">
       <Filter>src\qam</Filter>
     </ClCompile>
     <ClCompile Include="src\qam\qam_upgrade.c">
@@ -1032,9 +1046,6 @@
       <Filter>src\rep</Filter>
     </ClCompile>
     <ClCompile Include="src\rep\rep_stat.c">
-      <Filter>src\rep</Filter>
-    </ClCompile>
-    <ClCompile Include="src\rep\rep_stub.c">
       <Filter>src\rep</Filter>
     </ClCompile>
     <ClCompile Include="src\rep\rep_util.c">
@@ -1079,9 +1090,6 @@
     <ClCompile Include="src\repmgr\repmgr_stat.c">
       <Filter>src\repmgr</Filter>
     </ClCompile>
-    <ClCompile Include="src\repmgr\repmgr_stub.c">
-      <Filter>src\repmgr</Filter>
-    </ClCompile>
     <ClCompile Include="src\repmgr\repmgr_util.c">
       <Filter>src\repmgr</Filter>
     </ClCompile>
@@ -1124,49 +1132,29 @@
     <ClCompile Include="src\xa\xa_map.c">
       <Filter>src\xa</Filter>
     </ClCompile>
-    <ClCompile Include="src\sequence\seq_stat.c">
-      <Filter>src\sequence</Filter>
-    </ClCompile>
     <ClCompile Include="src\sequence\sequence.c">
       <Filter>src\sequence</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="include\dbinc\db.in">
-      <Filter>include\dbinc</Filter>
-    </None>
-    <None Include="include\dbinc\db_185.in">
-      <Filter>include\dbinc</Filter>
-    </None>
-    <None Include="include\dbinc\db_cxx.in">
-      <Filter>include\dbinc</Filter>
-    </None>
-    <None Include="include\dbinc\db_int.in">
-      <Filter>include\dbinc</Filter>
-    </None>
-    <None Include="include\dbinc_auto\api_flags.in">
-      <Filter>include\dbinc_auto</Filter>
-    </None>
-    <None Include="include\dbinc_auto\ext_185_def.in">
-      <Filter>include\dbinc_auto</Filter>
-    </None>
-    <None Include="include\dbinc_auto\ext_185_prot.in">
-      <Filter>include\dbinc_auto</Filter>
-    </None>
-    <None Include="include\dbinc_auto\ext_def.in">
-      <Filter>include\dbinc_auto</Filter>
-    </None>
-    <None Include="include\dbinc_auto\ext_prot.in">
-      <Filter>include\dbinc_auto</Filter>
-    </None>
-    <None Include="include\dbinc_auto\int_def.in">
-      <Filter>include\dbinc_auto</Filter>
-    </None>
-    <None Include="src\lock\lock_alloc.incl">
-      <Filter>src\lock</Filter>
-    </None>
-    <None Include="src\mutex\uts4_cc.s">
-      <Filter>src\mutex</Filter>
-    </None>
+    <ClCompile Include="src\sequence\seq_stat.c">
+      <Filter>src\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbreg\dbreg.c">
+      <Filter>src\dbreg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbreg\dbreg_auto.c">
+      <Filter>src\dbreg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbreg\dbreg_autop.c">
+      <Filter>src\dbreg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbreg\dbreg_rec.c">
+      <Filter>src\dbreg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbreg\dbreg_stat.c">
+      <Filter>src\dbreg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbreg\dbreg_util.c">
+      <Filter>src\dbreg</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
